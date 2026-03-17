@@ -1,0 +1,6 @@
+
+supermarket,50
+gas,40
+Theater,23.1
+Cinema,70
+,

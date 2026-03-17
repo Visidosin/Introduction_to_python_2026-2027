@@ -12,7 +12,7 @@ for row in sales:
     total = row[1] + row[2] + row[3] + row[4]
     print(year, ":", total)
 
-print("\nAverage sales per year:")
+print("Average sales per year:")
 for row in sales:
     year = row[0]
     avg = (row[1] + row[2] + row[3] + row[4]) / 4
@@ -40,5 +40,5 @@ for row in sales:
             min_year = year
             min_quarter = i
 
-print("\nMax sale:", max_sale, "Year:", max_year, "Quarter:", max_quarter)
+print("Max sale:", max_sale, "Year:", max_year, "Quarter:", max_quarter)
 print("Min sale:", min_sale, "Year:", min_year, "Quarter:", min_quarter)

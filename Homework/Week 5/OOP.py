@@ -27,19 +27,3 @@ class Employee(Person):
         super().print_info()
         print("Company:", self.company)
         print("Salary:", self.salary)
-
-person1 = Person("Alice", "Smith")
-person1.set_birthdate("1990-05-12")
-person1.set_phone_number("123-456-7890")
-
-print("Person Info:")
-person1.print_info()
-print("--------------------")
-
-# Create an Employee
-employee1 = Employee("Bob", "Johnson", "TechCorp", 55000)
-employee1.set_birthdate("1985-11-20")
-employee1.set_phone_number("987-654-3210")
-
-print("Employee Info:")
-employee1.print_info()
